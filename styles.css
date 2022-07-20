@@ -6,8 +6,14 @@
     list-style-type: none
 }
 
+/*
 body {
-    background-color: rgb(211, 208, 202);
+    background-color: #f7f7f7;
+}
+*/
+
+body {
+    background-image: url(https://pbs.twimg.com/media/FYFim0jXEAcsxK8?format=jpg&name=large);
 }
 
 .video {
@@ -23,23 +29,125 @@ body {
 .LDR {
     width: 100%;
     height: auto;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.LDR:hover {
+    width: 105%;
+    height: auto;
 }
 
 .BBAC {
     width: 320px;
     height: 320px;
+    border: solid 3px;
     padding: 30px;
+    transition: 1s;
+}
+
+.BBAC:hover {
+    height: 400px;
+    width: 400px;
 }
 
 .LDRpics {
-    /* display: flex;
-    flex-wrap: wrap; */
-    gap: 15px;
     display: grid;
-    grid-template-columns: repeat(2, 1fr)
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: auto;
+    border: solid 3px;
+}
+
+/* img {
+    height: 250px;
+    width:  250px;
+} */
+
+.sirens {
+    transition: 1s;
+}
+
+.sirens:hover {
+    height: 400px;
+    width: 400px;
+}
+
+.lizzy {
+    transition: 1s;
+}
+
+.lizzy:hover {
+    height: 400px;
+    width: 400px;
+}
+
+.borntodie {
+    transition: 1s;
+}
+
+.borntodie:hover {
+    height: 400px;
+    width: 400px;
+}
+
+.ultaviolence {
+    transition: 1s;
+}
+
+.ultraviolence:hover {
+    height: 400px;
+    width: 400px;
+}
+
+.honeymoon {
+    transition: 1s;
+}
+
+.honeymoon:hover {
+    height: 400px;
+    width: 400px;
+}
+
+.lustforlife {
+    transition: 1s;
+}
+
+.lustforlife:hover {
+    height: 400px;
+    width: 400px;
+}
+
+.norman {
+    transition: 1s;
+}
+
+.norman:hover {
+    height: 400px;
+    width: 400px;
+}
+
+.chemtrails {
+    transition: 1s;
+}
+
+.chemtrails:hover {
+    height: 400px;
+    width: 400px;
+}
+
+.banisters { 
+    transition: 1s;
+}
+
+.banisters:hover {
+    height: 400px;
+    width: 400px;
 }
 
 h2 {
+    align-content: center;
     font: 100px;
     font-family: vogue
 }
@@ -51,6 +159,16 @@ p {
 .about {
     font-family: IM FELL French Canon;
 }
+
+/*
+.albumsabout {
+    justify-items: start;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+*/
+
 
 .CDlist {
     font-family: IM FELL French Canon;
@@ -67,8 +185,11 @@ dt {
 }
 
 form {
+    display: flex;
+    align-items: center;
+    align-content: center;
     font-family: IM FELL French Canon;
-    width: 600px;
+    width: 1000px;
     height: 600px;
 }
 
