@@ -185,12 +185,15 @@ dt {
 }
 
 form {
-    display: flex;
-    align-items: center;
-    align-content: center;
     font-family: IM FELL French Canon;
-    width: 1000px;
-    height: 600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
 }
 
 footer {
