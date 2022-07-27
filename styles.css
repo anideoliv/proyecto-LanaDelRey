@@ -6,6 +6,11 @@
     list-style-type: none
 }
 
+.navbar {
+    font-family: vogue;
+    justify-content: right;
+}
+
 /*
 body {
     background-color: #f7f7f7;
@@ -51,6 +56,7 @@ body {
     width: 400px;
 }
 
+/*
 .LDRpics {
     display: grid;
     display: flex;
@@ -58,6 +64,13 @@ body {
     gap: 15px;
     padding: auto;
 }
+*/
+
+#carouselExampleControls {
+    width: 600px;
+    margin: 0 auto;
+}
+
 
 /* img {
     height: 250px;
@@ -136,7 +149,7 @@ body {
     width: 400px;
 }
 
-.banisters { 
+/* .banisters { 
     transition: 1s;
 }
 
@@ -144,6 +157,7 @@ body {
     height: 400px;
     width: 400px;
 }
+*/
 
 h2 {
     align-content: center;
