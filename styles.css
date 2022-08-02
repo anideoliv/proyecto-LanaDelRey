@@ -212,14 +212,7 @@ fieldset{
 
 h5 {
     font-family: vogue;
-<<<<<<< HEAD
     align-self: center;
-=======
-    font-size: smaller;
-    text-align: center;
-    box-sizing: border-box;
-    padding: 40px 0px;
->>>>>>> b12b84fff5bdbeecbd06a6d35c00cf08d9b915db
 }
 
 .playlist {
