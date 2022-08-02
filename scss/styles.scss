@@ -1,0 +1,294 @@
+.nav {
+    display: flex;
+    gap: 15px;
+    font-family: vogue;
+    justify-content: right;
+    list-style-type: none
+}
+
+.navbar {
+    font-family: vogue;
+    justify-content: right;
+}
+
+/*
+body {
+    background-color: #f7f7f7;
+}
+*/
+
+body {
+    background-image: url(https://pbs.twimg.com/media/FYFim0jXEAcsxK8?format=jpg&name=large);
+}
+
+.video {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgandtext {
+    display: flex;
+    flex-direction: column;
+}
+
+.LDR {
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+    padding: 5px;
+}
+
+.LDR:hover {
+    width: 105%;
+    height: auto;
+}
+
+.BBAC {
+    width: 320px;
+    height: 320px;
+    border: solid 3px;
+    padding: 30px;
+    transition: 1s;
+}
+
+.BBAC:hover {
+    height: 400px;
+    width: 400px;
+}
+
+/*
+.LDRpics {
+    display: grid;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: auto;
+}
+*/
+
+#carouselExampleControls {
+    width: 600px;
+    margin: 0 auto;
+}
+
+
+/* img {
+    height: 250px;
+    width:  250px;
+} */
+
+.sirens {
+    transition: 1s;
+        &:hover {
+            height: 400px;
+            width: 400px;
+}
+}
+
+.lizzy {
+    transition: 1s;
+        &:hover {
+            height: 400px;
+            width: 400px;
+}
+}
+
+.borntodie {
+    transition: 1s;
+        &:hover {
+            height: 400px;
+            width: 400px;
+}
+}
+
+.ultaviolence {
+    transition: 1s;
+        &:hover {
+            height: 400px;
+            width: 400px;
+}
+}
+
+.honeymoon {
+    transition: 1s;
+        &:hover {
+            height: 400px;
+            width: 400px;
+}
+}
+
+.lustforlife {
+    transition: 1s;
+        &:hover {
+            height: 400px;
+            width: 400px;
+}
+}
+
+.norman {
+    transition: 1s;
+        &:hover {
+            height: 400px;
+            width: 400px;
+}
+}
+
+.chemtrails {
+    transition: 1s;
+        &:hover {
+            height: 400px;
+            width: 400px;
+}
+}
+
+.banisters {
+    transition: 1s;
+        &:hover {
+            height: 400px;
+            width: 400px;
+}
+}
+
+
+h2 {
+    align-content: center;
+    font: 100px;
+    font-family: vogue
+}
+
+p {
+    font-family: IM FELL French Canon;
+}
+
+.about {
+    font-family: IM FELL French Canon;
+}
+
+/*
+.albumsabout {
+    justify-items: start;
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+}
+*/
+
+
+.CDlist {
+    font-family: IM FELL French Canon;
+}
+
+dt {
+    font-size: 30px;
+    font-family: vogue
+}
+
+.Discography {
+    font-size: 30px;
+    font-family: vogue
+}
+
+form {
+    font-family: IM FELL French Canon;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+fieldset{
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    font-family: vogue;
+    align-self: center;
+}
+
+.playlist {
+    /*
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    height: auto;
+    width: 300px;
+    */
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    place-items: 25%;
+}
+
+.playlist01 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.playlist02 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.playlist03 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.playlist04 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.playlist05 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.playlist06 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.playlist07 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .video {
+        display: grid;
+        grid-template-rows: 700px;
+    }    
+    .LDRpics {
+        grid-template-columns: 1fr;
+    }
+    .playlist {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 30px;
+        column-gap: 25px;
+        height: auto;
+        width: 300px;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .video {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .playlist {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+}
