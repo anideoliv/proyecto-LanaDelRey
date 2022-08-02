@@ -46,7 +46,7 @@ body {
 .BBAC {
     width: 320px;
     height: 320px;
-    border: solid 3px;
+    border: solid 1px;
     padding: 30px;
     transition: 1s;
 }
@@ -67,7 +67,7 @@ body {
 */
 
 #carouselExampleControls {
-    width: 600px;
+    width: 800px;
     margin: 0 auto;
 }
 
@@ -82,8 +82,8 @@ body {
 }
 
 .sirens:hover {
-    height: 400px;
-    width: 400px;
+    height: 325px;
+    width: 325px;
 }
 
 .lizzy {
@@ -91,8 +91,8 @@ body {
 }
 
 .lizzy:hover {
-    height: 400px;
-    width: 400px;
+    height: 325px;
+    width: 325px;
 }
 
 .borntodie {
@@ -100,8 +100,8 @@ body {
 }
 
 .borntodie:hover {
-    height: 400px;
-    width: 400px;
+    height: 325px;
+    width: 325px;
 }
 
 .ultaviolence {
@@ -109,8 +109,8 @@ body {
 }
 
 .ultraviolence:hover {
-    height: 400px;
-    width: 400px;
+    height: 325px;
+    width: 325px;
 }
 
 .honeymoon {
@@ -118,8 +118,8 @@ body {
 }
 
 .honeymoon:hover {
-    height: 400px;
-    width: 400px;
+    height: 325px;
+    width: 325px;
 }
 
 .lustforlife {
@@ -127,8 +127,8 @@ body {
 }
 
 .lustforlife:hover {
-    height: 400px;
-    width: 400px;
+    height: 325px;
+    width: 325px;
 }
 
 .norman {
@@ -136,8 +136,8 @@ body {
 }
 
 .norman:hover {
-    height: 400px;
-    width: 400px;
+    height: 325px;
+    width: 325px;
 }
 
 .chemtrails {
@@ -145,19 +145,18 @@ body {
 }
 
 .chemtrails:hover {
-    height: 400px;
-    width: 400px;
+    height: 325px;
+    width: 325px;
 }
 
-/* .banisters { 
+.banisters { 
     transition: 1s;
 }
 
 .banisters:hover {
-    height: 400px;
-    width: 400px;
+    height: 325px;
+    width: 325px;
 }
-*/
 
 h2 {
     align-content: center;
@@ -167,6 +166,7 @@ h2 {
 
 p {
     font-family: IM FELL French Canon;
+    align-content: center;
 }
 
 .about {
@@ -209,9 +209,17 @@ fieldset{
     flex-direction: column;
 }
 
-footer {
+
+h5 {
     font-family: vogue;
+<<<<<<< HEAD
     align-self: center;
+=======
+    font-size: smaller;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 40px 0px;
+>>>>>>> b12b84fff5bdbeecbd06a6d35c00cf08d9b915db
 }
 
 .playlist {
@@ -275,8 +283,9 @@ footer {
         display: grid;
         grid-template-rows: 700px;
     }    
-    .LDRpics {
-        grid-template-columns: 1fr;
+    #carouselExampleControls {
+        height: auto;
+        width: auto;
     }
     .playlist {
         display: flex;
@@ -284,9 +293,8 @@ footer {
         row-gap: 30px;
         column-gap: 25px;
         height: auto;
-        width: 300px;
+        width: 364px;
     }
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
