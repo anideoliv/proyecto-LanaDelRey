@@ -92,8 +92,7 @@ dt {
 }
 
 .Discography {
-    font-size: 30px;
-    font-family: vogue
+    @extend dt
 }
 
 
