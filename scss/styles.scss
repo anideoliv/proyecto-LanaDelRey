@@ -1,14 +1,25 @@
-.nav {
-    display: flex;
-    gap: 15px;
-    font-family: vogue;
-    justify-content: right;
-    list-style-type: none
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width; 
 }
+
+@mixin margin ($margin-letf, $margin-right, $margin-top, $margin-bottom) {
+    margin-left: $margin-letf;
+    margin-right: $margin-right;
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+}
+
+$estilos: (
+  color: black,
+  centro: center,
+  tFuente: 35px,
+  font: IM FELL French Canon
+  );
 
 .navbar {
     font-family: vogue;
-    justify-content: right;
+    align-content: right;
 }
 
 body {
@@ -30,25 +41,23 @@ body {
     height: auto;
     transition: 0.5s;
     padding: 5px;
+        &hover{
+            width: 105%;
+            height: auto;
+        }
 }
 
-.LDR:hover {
-    width: 105%;
-    height: auto;
-}
 
 .BBAC {
-    width: 320px;
-    height: 320px;
+    @include sizes (320px, 320px);
     border: solid 1px;
     padding: 30px;
     transition: 1s;
+        &hover {
+            @include sizes (400px, 400px);
+        }
 }
 
-.BBAC:hover {
-    height: 400px;
-    width: 400px;
-}
 
 #carouselExampleControls {
     width: 800px;
@@ -56,8 +65,7 @@ body {
 }
 
 .AlbumCovers {
-    height: 330px;
-    width: 330px;
+    @include sizes (330px, 330px);
     margin: 20px;
     padding: 10px;
 }
@@ -67,23 +75,24 @@ body {
 }
 
 h2 {
-    margin-left: 25px;
+    @include margin (25px, 0px, 0px, 0px);
     align-content: center;
     font: 100px;
     font-family: vogue
 }
 
 p {
-    font-family: IM FELL French Canon;
+    font-family:map-get($estilos,font);
     align-content: center;
 }
 
 .about {
-    font-family: IM FELL French Canon;
+    font-family:map-get($estilos,font);
+    @include margin (25px, 0px, 0px, 0px);
 }
 
 .CDlist {
-    font-family: IM FELL French Canon;
+    font-family:map-get($estilos,font);
 }
 
 dt {
@@ -97,14 +106,11 @@ dt {
 
 
 form {
-    font-family: IM FELL French Canon;
+    font-family:map-get($estilos,font);
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 50px;
-    margin-bottom: 100px;
+    @include margin (200px, 200px, 50px, 100px);
 }
 
 fieldset{
