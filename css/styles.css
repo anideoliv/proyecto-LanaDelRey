@@ -18,7 +18,7 @@ body {
   height: auto;
   transition: 0.5s;
   padding: 5px; }
-  .LDRhover {
+  .LDR:hover {
     width: 105%;
     height: auto; }
 
@@ -28,7 +28,7 @@ body {
   border: solid 1px;
   padding: 30px;
   transition: 1s; }
-  .BBAChover {
+  .BBAC:hover {
     height: 400px;
     width: 400px; }
 
@@ -68,6 +68,9 @@ p {
 .CDlist {
   font-family: IM FELL French Canon; }
 
+.albumslist {
+  font-size: x-small; }
+
 dt, .Discography {
   font-size: 30px;
   font-family: vogue; }
@@ -88,7 +91,8 @@ fieldset {
 
 h5 {
   font-family: vogue;
-  align-self: center; }
+  align-self: center;
+  font-size: x-small; }
 
 .playlist {
   display: grid;
@@ -99,6 +103,10 @@ h5 {
   display: flex;
   justify-content: center;
   padding: 20px; }
+
+footer {
+  text-align: center;
+  margin-top: 100px; }
 
 @media screen and (max-width: 767px) {
   .video {

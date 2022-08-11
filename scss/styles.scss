@@ -11,9 +11,6 @@
 }
 
 $estilos: (
-  color: black,
-  centro: center,
-  tFuente: 35px,
   font: IM FELL French Canon
   );
 
@@ -41,7 +38,7 @@ body {
     height: auto;
     transition: 0.5s;
     padding: 5px;
-        &hover{
+        &:hover{
             width: 105%;
             height: auto;
         }
@@ -53,7 +50,7 @@ body {
     border: solid 1px;
     padding: 30px;
     transition: 1s;
-        &hover {
+        &:hover{
             @include sizes (400px, 400px);
         }
 }
@@ -95,6 +92,10 @@ p {
     font-family:map-get($estilos,font);
 }
 
+.albumslist {
+    font-size: x-small;
+}
+
 dt {
     font-size: 30px;
     font-family: vogue
@@ -122,6 +123,7 @@ fieldset{
 h5 {
     font-family: vogue;
     align-self: center;
+    font-size: x-small;
 }
 
 .playlist {
@@ -137,6 +139,11 @@ h5 {
     padding: 20px;
 }
 
+
+footer {
+    text-align: center;
+    margin-top: 100px;
+}
 
 @media screen and (max-width: 767px) {
     .video {
