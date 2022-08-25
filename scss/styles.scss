@@ -67,6 +67,12 @@ body {
     padding: 10px;
 }
 
+.albumsabout {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .WhoIsLana { 
     margin-left: 20px;
 }
@@ -85,15 +91,16 @@ p {
 
 .about {
     font-family:map-get($estilos,font);
-    @include margin (25px, 0px, 0px, 0px);
+    @include margin (15px, 0px, 0px, 0px);
 }
 
 .CDlist {
     font-family:map-get($estilos,font);
+    font-size: small;
 }
 
 .albumslist {
-    font-size: x-small;
+    font-size: small;
 }
 
 dt {
@@ -187,6 +194,9 @@ footer {
         margin-right: 15px;
         margin-top: 50px;
         margin-bottom: 50px;
+    }
+    .about {
+        width: auto;
     }
 }
 
